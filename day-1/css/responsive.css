@@ -33,14 +33,24 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
+    width: 200px;
   }
 
   .nav-items {
     display: flex;
+    align-items: center;
+    margin: 10px;
   }
 
   .playlist {
     flex-grow: 6;
+    margin: 10px;
+    width: 200px;
+  }
+
+  .add-playlist {
+    margin: 10px;
+    width: 200px;
   }
 
   .fa-plus {
