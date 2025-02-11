@@ -15,13 +15,28 @@
     flex-basis: 150px;
   }
 
+  #sidebar-menu ul li a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
   #sidebar-menu .navigation ul img {
     width: 25%;
-    padding-right: 5px;
   }
 
   #sidebar-menu img.download {
     width: 18%;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-items {
+    display: flex;
   }
 
   .playlist {
@@ -29,9 +44,10 @@
   }
 
   .fa-plus {
-    padding: 6px 8px;
+    padding: 20px;
     color: black;
     margin-right: 10px;
+    margin-top: 10px;
     background-color: #858585;
   }
 }
