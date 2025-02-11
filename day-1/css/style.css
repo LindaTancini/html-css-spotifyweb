@@ -36,7 +36,16 @@ body {
 
 /* SIDEBAR MENU */
 
+.logo {
+  display: none;
+}
+
 #sidebar-menu {
   background-color: black;
   color: #ffff;
+  flex-basis: 50px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
