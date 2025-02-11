@@ -38,6 +38,10 @@ img {
   height: 80px;
 }
 
+.text-grey {
+  color: #858585;
+}
+
 /* SIDEBAR MENU */
 
 .logo {
@@ -49,6 +53,10 @@ img {
 }
 
 .add-playlist {
+  display: none;
+}
+
+.playlist {
   display: none;
 }
 
