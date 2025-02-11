@@ -23,4 +23,15 @@
   #sidebar-menu img.download {
     width: 18%;
   }
+
+  .playlist {
+    flex-grow: 6;
+  }
+
+  .fa-plus {
+    padding: 6px 8px;
+    color: black;
+    margin-right: 10px;
+    background-color: #858585;
+  }
 }
