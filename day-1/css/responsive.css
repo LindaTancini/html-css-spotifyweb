@@ -10,4 +10,17 @@
   .logo-small {
     display: none;
   }
+
+  #sidebar-menu {
+    flex-basis: 150px;
+  }
+
+  #sidebar-menu .navigation ul img {
+    width: 25%;
+    padding-right: 5px;
+  }
+
+  #sidebar-menu img.download {
+    width: 18%;
+  }
 }
