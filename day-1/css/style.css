@@ -48,6 +48,10 @@ img {
   display: none;
 }
 
+.add-playlist {
+  display: none;
+}
+
 .logo-small {
   width: 50%;
   margin-left: 10px;
