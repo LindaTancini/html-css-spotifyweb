@@ -12,4 +12,31 @@ ul {
 
 body {
   font-family: "Montserrat", serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+}
+
+/* UTILITIES */
+
+.container {
+  display: flex;
+}
+
+#main-content {
+  background-color: #151922;
+  flex-grow: 1;
+  height: calc(100vh - 80px);
+}
+
+.bg-gray {
+  background-color: #282828;
+  height: 80px;
+}
+
+/* SIDEBAR MENU */
+
+#sidebar-menu {
+  background-color: black;
+  color: #ffff;
 }
