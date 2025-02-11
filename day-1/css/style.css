@@ -44,6 +44,10 @@ img {
   display: none;
 }
 
+#sidebar-menu span {
+  display: none;
+}
+
 .logo-small {
   width: 50%;
   margin-left: 10px;
@@ -58,4 +62,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+#sidebar-menu .navigation {
+  flex-grow: 1;
+  margin-top: 20px;
+}
+
+.navigation ul img {
+  width: 50%;
 }
