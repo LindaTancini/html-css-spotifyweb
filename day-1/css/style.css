@@ -84,3 +84,12 @@ img {
 .navigation ul img {
   width: 50%;
 }
+
+.img-profile {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  background-color: #858585;
+}
