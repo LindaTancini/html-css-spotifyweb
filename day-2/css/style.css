@@ -193,6 +193,10 @@ hr {
 
 .container-album {
   display: flex;
-  flex-flow: row wrap;
+}
+
+.album {
+  display: flex;
+  flex-flow: wrap;
   justify-content: space-evenly;
 }
