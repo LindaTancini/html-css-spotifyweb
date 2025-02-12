@@ -56,6 +56,10 @@ hr {
   opacity: 0.5;
 }
 
+h2 {
+  color: #ffff;
+}
+
 /* SIDEBAR MENU */
 
 .logo {
@@ -193,10 +197,17 @@ hr {
 
 .container-album {
   display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .album {
   display: flex;
-  flex-flow: wrap;
-  justify-content: space-evenly;
+  width: calc((100% - 40px) / 2);
+  flex-direction: column;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #ffff;
 }
