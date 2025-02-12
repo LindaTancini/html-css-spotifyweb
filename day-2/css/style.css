@@ -220,3 +220,16 @@ h2 {
   gap: 20px;
   margin-top: 40px;
 }
+
+/* ARTISTI POPOLARI */
+
+.artist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.artist img {
+  border-radius: 50%;
+}
