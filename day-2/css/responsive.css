@@ -16,6 +16,11 @@
     display: none;
   }
 
+  .green-h-line {
+    display: inline;
+    margin-left: -6px;
+  }
+
   #sidebar-menu {
     flex-basis: 230px;
     padding: 16px 8px;

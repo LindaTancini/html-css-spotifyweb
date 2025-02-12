@@ -60,10 +60,34 @@ h2 {
   color: #ffff;
 }
 
+.green-line {
+  height: 2px;
+  background-color: lime;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.green-h-line {
+  width: 2px;
+  background-color: lime;
+  border-radius: 5px;
+  height: 100%;
+  margin-left: -16px;
+  display: none;
+  position: absolute;
+}
+
 /* SIDEBAR MENU */
 
 .logo {
   display: none;
+}
+
+.spotify-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #sidebar-menu span {
@@ -84,8 +108,6 @@ h2 {
 
 .logo-small {
   width: 50%;
-  margin-left: 10px;
-  margin-top: 10px;
 }
 
 #sidebar-menu {
@@ -106,21 +128,27 @@ h2 {
 #sidebar-menu ul li a {
   text-decoration: none;
   display: flex;
-  align-items: center;
+  justify-content: center;
   gap: 8px;
+}
+
+#sidebar-menu .playlist ul li a,
+#sidebar-menu .add-playlist ul li a {
+  justify-content: flex-start;
 }
 
 .nav-menu {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-left: 10px;
+  height: 100%;
 }
 
 .nav-items {
   display: flex;
   align-items: center;
   gap: 10px;
+  position: relative;
 }
 
 .profile {
@@ -139,7 +167,6 @@ h2 {
   border-radius: 50%;
   width: 35px;
   height: 35px;
-  margin-left: 8px;
   background-color: #858585;
 }
 
@@ -160,6 +187,10 @@ h2 {
   z-index: 3;
 }
 
+.main-container {
+  padding: 16px;
+}
+
 .button {
   padding: 10px 20px;
   border: 1px solid white;
@@ -168,8 +199,10 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   position: absolute;
-  top: 20px;
-  right: 50px;
+  top: 50%;
+  right: 20px;
+  transform: translate(0, -50%);
+  color: #ffff;
 }
 
 /* LISTA GENERI PODCAST */
@@ -201,13 +234,20 @@ h2 {
   flex-wrap: wrap;
   margin-top: 40px;
 }
-
+.recently-played {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 40px;
+}
 .album {
   display: flex;
   width: calc((100% - 40px) / 2);
   flex-direction: column;
   flex-shrink: 0;
-  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
   font-size: 14px;
   color: #ffff;
 }
@@ -216,7 +256,7 @@ h2 {
 
 .for-you {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   margin-top: 40px;
 }
@@ -225,7 +265,7 @@ h2 {
 
 .artist {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
   margin-top: 40px;
 }
