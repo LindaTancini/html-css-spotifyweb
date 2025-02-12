@@ -91,6 +91,17 @@
 /* DESKTOP DEVICE */
 
 @media screen and (min-width: 992px) {
+  #content-menu {
+    justify-content: center;
+  }
+
+  .container-album {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    margin-top: 40px;
+  }
+
   .container-album .album {
     width: calc((100% - 40px) / 6);
   }
