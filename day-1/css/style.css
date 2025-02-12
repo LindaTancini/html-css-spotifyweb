@@ -16,7 +16,6 @@ a {
 
 body {
   font-family: "Montserrat", serif;
-  width: 100vw;
   height: 100vh;
   background-color: pink;
 }
@@ -29,17 +28,32 @@ img {
 
 .container {
   display: flex;
+  height: calc(100% - 90px);
 }
 
 #main-content {
   background-color: #151922;
+  display: flex;
   flex-grow: 1;
-  height: calc(100vh - 80px);
 }
 
-.bg-gray {
+#main-content main .top-main {
+  height: 90px;
+  background-color: aqua;
+}
+
+footer {
   background-color: #282828;
-  height: 80px;
+  height: 90px;
+}
+
+.nav-items img {
+  opacity: 0.5;
+}
+
+#sidebar-menu img.download {
+  width: 30px;
+  opacity: 0.5;
 }
 
 .text-grey {
@@ -88,12 +102,36 @@ hr {
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 10px 0 20px;
 }
 
 #sidebar-menu .navigation {
   flex-grow: 1;
   margin-top: 20px;
+}
+
+#sidebar-menu ul li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 10px;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  margin-top: auto;
 }
 
 .navigation ul img {
