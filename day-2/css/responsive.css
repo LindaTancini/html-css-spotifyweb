@@ -67,9 +67,31 @@
 /* TABLET DEVICE */
 
 @media screen and (min-width: 768px) {
+  .container-album .card img,
+  .for-you .card img,
+  .artist .card img {
+    max-width: 150px;
+  }
+
+  .container-album .album {
+    width: calc((100% - 40px) / 5);
+  }
+
+  .artist .album,
+  .for-you .album {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffff;
+  }
 }
 
 /* DESKTOP DEVICE */
 
 @media screen and (min-width: 992px) {
+  .container-album .album {
+    width: calc((100% - 40px) / 6);
+  }
 }
