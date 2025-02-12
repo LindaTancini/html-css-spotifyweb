@@ -211,3 +211,12 @@ h2 {
   font-size: 14px;
   color: #ffff;
 }
+
+/* CREATO PER TE */
+
+.for-you {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
