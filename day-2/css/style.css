@@ -149,13 +149,20 @@ hr {
 .top-menu {
   height: 90px;
   background-color: #080b12;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 3;
 }
 
 .button {
-  padding: 10px 40px;
+  padding: 10px 20px;
   border: 1px solid white;
   border-radius: 20px;
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 50px;
 }
