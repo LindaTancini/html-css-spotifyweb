@@ -168,6 +168,8 @@ hr {
   right: 50px;
 }
 
+/* LISTA GENERI PODCAST */
+
 #content-menu {
   display: flex;
 }
@@ -185,4 +187,12 @@ hr {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
+}
+
+/* RECENTLY PLAYED */
+
+.container-album {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
