@@ -77,8 +77,16 @@
     width: calc((100% - 40px) / 5);
   }
 
-  .artist .album,
   .for-you .album {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #ffff;
+  }
+
+  .artist .album {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
