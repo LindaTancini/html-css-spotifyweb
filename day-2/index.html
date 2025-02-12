@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>Spotify Web</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- INIZIO SIDEBAR -->
+      <nav id="sidebar-menu">
+        <!-- SPOTIFY LOGO -->
+        <div class="spotify-logo">
+          <img
+            class="logo-small"
+            src="../img/logo-small.svg"
+            alt="Logo Spotify"
+          />
+          <img class="logo" src="../img/logo.svg" alt="Logo Spotify" />
+        </div>
+        <!-- BARRA NAVIGAZIONE -->
+        <div class="navigation">
+          <ul class="nav-menu">
+            <li class="nav-items">
+              <a href="#"><img src="../img/home.svg" alt="Home" /></a
+              ><span>Home</span>
+            </li>
+            <li class="nav-items">
+              <a href="#"><img src="../img/search.svg" alt="Cerca" /></a
+              ><span>Cerca</span>
+            </li>
+            <li class="nav-items">
+              <a href="#"><img src="../img/libreria.svg" alt="Libreria" /></a
+              ><span>La tua libreria</span>
+            </li>
+          </ul>
+        </div>
+        <!-- PLAYLIST SECTION -->
+        <div class="add-playlist">
+          <ul>
+            <li class="title">Playlist</li>
+            <li>
+              <a href="#"
+                ><div class="icon-container">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <span class="text-grey">Crea Playlist</span></a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="playlist">
+          <ul>
+            <li><a class="text-grey" href="#">Nome Playlist</a></li>
+            <li><a class="text-grey" href="#">Nome Playlist</a></li>
+            <li><a class="text-grey" href="#">Nome Playlist</a></li>
+            <li><a class="text-grey" href="#">Nome Playlist</a></li>
+            <li><a class="text-grey" href="#">Nome Playlist</a></li>
+          </ul>
+        </div>
+        <!-- PROFILO E INSTALLA APP -->
+        <div class="profile">
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  class="download"
+                  src="../img/download.svg"
+                  alt="Download"
+                /><span class="text-grey">Installa app</span></a
+              >
+            </li>
+            <hr />
+            <li>
+              <a href="#"
+                ><img
+                  class="img-profile"
+                  src="../img/profile.svg"
+                  alt="Profilo"
+                /><span>Linda Tancini</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- MAIN CONTENT -->
+      <main id="main-content">
+        <div class="top-menu">
+          <a class="button" href="#">effettua l'upgrade</a>
+        </div>
+      </main>
+    </div>
+    <!-- FOOTER -->
+    <footer></footer>
+  </body>
+</html>
