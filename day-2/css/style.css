@@ -167,3 +167,22 @@ hr {
   top: 20px;
   right: 50px;
 }
+
+#content-menu {
+  display: flex;
+}
+
+#content-menu ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#content-menu li {
+  padding-right: 10px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
