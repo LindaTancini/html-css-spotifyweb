@@ -316,10 +316,20 @@ h2 {
   height: 80px;
 }
 
+.like-folder {
+  flex-grow: 1;
+}
+
 .now-play {
   display: flex;
   align-items: center;
-  flex-grow: 1;
   font-size: 12px;
   font-weight: 700;
+}
+
+#controls .like-folder i {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
 }
