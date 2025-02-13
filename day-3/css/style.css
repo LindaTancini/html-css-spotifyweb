@@ -102,6 +102,17 @@ h2 {
   transition: 0.5s ease-in-out;
 }
 
+.pointer {
+  height: 10px;
+  width: 10px;
+  background-color: #ffff;
+  position: relative;
+  bottom: 3px;
+  left: 90%;
+  border-radius: 50%;
+  display: none;
+}
+
 /* SIDEBAR MENU */
 
 .logo {
@@ -300,6 +311,11 @@ h2 {
 
 /* FOOTER */
 
+#controls i {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
 #controls img {
   width: 30px;
   margin: 0 10px;
@@ -316,13 +332,19 @@ h2 {
   height: 80px;
 }
 
+.now-play,
+.progress-controls {
+  display: flex;
+  align-items: center;
+}
+
+.now-play,
+.progress-controls,
 .like-folder {
   flex-grow: 1;
 }
 
 .now-play {
-  display: flex;
-  align-items: center;
   font-size: 12px;
   font-weight: 700;
 }
@@ -340,7 +362,7 @@ h2 {
   align-items: center;
   padding-top: 10px;
   flex-direction: column;
-  flex-grow: 10;
+  flex-grow: 30;
 }
 
 .music .fa-circle-play {
@@ -351,4 +373,24 @@ h2 {
 .music i {
   padding: 10px;
   color: #ffff;
+}
+
+.progress-controls span {
+  font-size: 15px;
+}
+
+.progress-bar {
+  height: 4px;
+  background-color: #858585;
+  width: 150px;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.progress-bar.overlay {
+  height: 4px;
+  background-color: #ffff;
+  border-radius: 10px;
+  width: 20%;
+  margin: 0;
 }

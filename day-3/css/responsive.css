@@ -103,6 +103,10 @@
   #controls .like-folder i {
     display: inline-block;
   }
+
+  .progress-bar {
+    width: 300px;
+  }
 }
 
 /* DESKTOP DEVICE */
@@ -120,5 +124,9 @@
 
   .container-album .album {
     width: calc((100% - 40px) / 6);
+  }
+
+  .progress-bar {
+    width: 450px;
   }
 }
