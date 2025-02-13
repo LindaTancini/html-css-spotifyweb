@@ -99,6 +99,10 @@
     font-size: 14px;
     color: #ffff;
   }
+
+  #controls .like-folder i {
+    display: inline-block;
+  }
 }
 
 /* DESKTOP DEVICE */
