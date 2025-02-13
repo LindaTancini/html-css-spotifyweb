@@ -333,3 +333,22 @@ h2 {
   align-items: center;
   font-size: 16px;
 }
+
+.track-controls {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  padding-top: 10px;
+  flex-direction: column;
+  flex-grow: 10;
+}
+
+.music .fa-circle-play {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.music i {
+  padding: 10px;
+  color: #ffff;
+}
