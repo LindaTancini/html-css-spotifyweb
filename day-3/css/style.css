@@ -84,6 +84,11 @@ h2 {
   position: absolute;
 }
 
+.text-grey:hover {
+  color: #ffff;
+  transition: 0.2s ease-in;
+}
+
 .card {
   position: relative;
 }
