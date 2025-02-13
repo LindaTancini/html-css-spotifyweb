@@ -60,12 +60,19 @@ h2 {
   color: #ffff;
 }
 
-.green-line {
+/* HOOVER */
+
+#content-menu ul li div {
   height: 2px;
   background-color: lime;
   border-radius: 5px;
   width: 50%;
   margin: 0 auto;
+  display: none;
+}
+
+#content-menu ul li:hover div {
+  display: block;
 }
 
 .green-h-line {
@@ -74,11 +81,8 @@ h2 {
   border-radius: 5px;
   height: 100%;
   margin-left: -16px;
-  display: none;
   position: absolute;
 }
-
-/* HOOVER */
 
 .card {
   position: relative;
@@ -333,14 +337,16 @@ h2 {
 }
 
 .now-play,
-.progress-controls {
+.progress-controls,
+.device-icon {
   display: flex;
   align-items: center;
 }
 
 .now-play,
 .progress-controls,
-.like-folder {
+.like-folder,
+.device-icon {
   flex-grow: 1;
 }
 
@@ -393,4 +399,23 @@ h2 {
   border-radius: 10px;
   width: 20%;
   margin: 0;
+}
+
+.device-icon {
+  color: #ffff;
+}
+
+.volume-bar {
+  height: 4px;
+  background-color: #858585;
+  width: 80px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.volume-bar .overlay {
+  height: 4px;
+  background-color: #ffff;
+  border-radius: 10px;
+  width: 20%;
 }
