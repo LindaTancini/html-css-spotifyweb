@@ -111,8 +111,7 @@
   .container-album {
     display: flex;
     flex-wrap: nowrap;
-    gap: 15px;
-    margin-top: 40px;
+    gap: 10px;
   }
 
   .container-album .album {
