@@ -297,3 +297,10 @@ h2 {
 .artist img {
   border-radius: 50%;
 }
+
+/* FOOTER */
+
+#controls img {
+  width: 30px;
+  margin: 0 10px;
+}
